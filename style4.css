@@ -1,0 +1,126 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    border-color: black;
+    color: rgb(15, 58, 71);
+    border-top:2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+      overflow: hidden;
+      background-color: rgb(15, 58, 71);
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      /*text-align: center;*/
+      padding: 14px 12px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #818181;
+      color: white;
+    }
+    
+    .topnav a.active {
+      background-color: #36769b;
+      color: white;
+    }
+    
+    
+    
+    
+    .topnav2 {
+      overflow: hidden;
+      background-color: rgb(15, 58, 71);
+    }
+    
+    .topnav2 a {
+      float: right;
+      color: #f2f2f2;
+      /*text-align: center;*/
+      padding: 14px 12px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav2 a:hover {
+      background-color: #818181;
+      color: white;
+    }
+    
+    .topnav2 a.active {
+      background-color: #36769b;
+      color: white;
+    }
+  
+    h2{
+      float:right;
+      margin-right: 125px;
+      margin-top:100px;
+    }
+  
+  
+    .main{
+      float:right;
+      justify-content: center;
+      margin-top: 125px;
+      font-size: 50px;
+      margin-right: 100px;
+    }
+  
+    .equipe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+        font-size:15px;
+      }
+      
+      .equipe > div {
+        border-radius: 5px;
+        background-color: rgb(15, 58, 71);
+        width: 550px;
+        margin: 10px;
+        color:white;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .unidade {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        font-size:15px;
+      }
+      
+      .unidade > div {
+        border-radius: 5px;
+        background-color: rgb(15, 58, 71);
+        width: 550px;
+        margin: 10px;
+        color:white;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+  
+     p{
+      font-size: 23px;
+      margin-left: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+  
+    .principal{
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 50px;
+    }
+
+  
